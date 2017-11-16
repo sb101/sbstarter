@@ -1,4 +1,4 @@
-package com.rs.hello;
+package com.rs.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from SB Repo new update";
+        return "Welcome to SB App";
     }
 
 }
